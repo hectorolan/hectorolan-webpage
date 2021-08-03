@@ -17,13 +17,14 @@ line-height:1.50;
     min-height: 300p
 }
 
-.mh-30{
-    min-height:20vh;
+.mh-35{
+    min-height:45vh;
     padding-top:5vh;
     padding-bottom:5vh;
 }
-.mh-35{
-    min-height:25vh;
+
+.mh-30{
+    min-height:40vh;
     padding-top:5vh;
     padding-bottom:5vh;
 }
