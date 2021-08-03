@@ -1,0 +1,24 @@
+{% load bootstrap5 %}
+<div class="card text-white bg-dark border-start-0 border-top-0 border-light col-md-4 col-sm-12 mx-auto ">
+    <div class="card-body">
+        <h5 class="card-title">Contact me</h5>
+        <hr/>
+        <div class="container">
+        <div class="row">
+            <div class="col-sm-12 mx-auto">
+                <form action="{% url 'index' %}" method='post'>
+                    {% csrf_token %}
+                    {% bootstrap_form form %}
+                    {% buttons %}
+                    <button type="submit" class="btn btn-primary">
+                        Send Message
+                    </button>
+                    {% endbuttons %}
+                </form>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+</div>

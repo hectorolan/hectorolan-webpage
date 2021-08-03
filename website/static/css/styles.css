@@ -1,0 +1,49 @@
+body{
+line-height:1.50;
+}
+
+.page-75{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 75vh;
+    padding: 0px;
+}
+
+.h-300px{
+    min-height: 300p
+}
+
+.mh-30{
+    min-height:30vh;
+    margin-top:10vh;
+    margin-bottom:10vh;
+}
+.mh-35{
+    min-height:35vh;
+    margin-top:5vh;
+    margin-bottom:5vh;
+}
+
+.mh-100{
+    display: flex;
+    min-height:90vh;
+    margin-top:5vh;
+    margin-bottom:5vh;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.w-25px{
+    width:25px;
+}
+.w-200px{
+    min-width: 150px;
+}

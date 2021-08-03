@@ -1,0 +1,13 @@
+<div class="card text-white bg-dark border-start-0 border-top-0 border-light">
+    <div class="card-body">
+        <h5 class="card-title">Skills</h5>
+        <hr/>
+        <ul class="list-inline">
+            {% for summary in skills %}
+            <li class="list-inline-item bg-success rounded-pill p-2 m-2">
+                {{ summary}}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

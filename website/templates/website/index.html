@@ -1,0 +1,15 @@
+{% extends "website/base.html" %}
+{% block content %}
+<div id="aboutme" class="container mh-30">
+    <div class="mx-auto">{% include "website/index-aboutme.html" %}</div>
+</div>
+<div id="skills" class="container mh-30">
+    <div class="mx-auto">{% include "website/index-skills.html" %}</div>
+</div>
+<div id="experience" class="container mh-30">
+{% include "website/index-experience.html" %}
+</div>
+<div id="contact" class="container mh-100">
+{% include "website/index-contact.html" %}
+</div>
+{% endblock content %}
